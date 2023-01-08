@@ -14,4 +14,7 @@ Please note this path will change depending on where you place the asset. To mak
 [!select dat usage](documentation/selectDat.png)
 
 ### Adding custom functions
-You can add custom functions and defines by creating valid glsl code in a `text DAT` and connecting it to the COMP's `Custom GLSL` field on the `Config` page.
+You can add custom functions and defines by creating valid glsl code in a `text DAT` and connecting it to the COMP's `Custom GLSL` field on the `Config` page. Please note that to have your functions definitions show up in the helper list you must use tabs rather than spaces.
+
+### Viewing functions
+You can get a list of the functions by viewing the table `./functions`. In python you can call the function `op.glsl.ListFunctions()` to get a list of the names of the functions. 
