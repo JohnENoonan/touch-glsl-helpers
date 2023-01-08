@@ -11,7 +11,7 @@ To include the code you can directly include using the `#include` directive in y
 ```
 Please note this path will change depending on where you place the asset. To make it location agnostic create a `select DAT` and set DAT path to expression mode and type `op.glsl.op("include_helpers")`. You can now use that `select DAT` as the `Preprocess Directives DAT` in your `GLSL TOP`  
 
-[!select dat usage](documentation/selectDat.png)
+![select dat usage](documentation/selectDat.png)
 
 ### Adding custom functions
 You can add custom functions and defines by creating valid glsl code in a `text DAT` and connecting it to the COMP's `Custom GLSL` field on the `Config` page. Please note that to have your functions definitions show up in the helper list you must use tabs rather than spaces.
